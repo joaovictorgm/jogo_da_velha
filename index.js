@@ -68,7 +68,7 @@ function winner (houses) {
     })
     const winnerName = document.getElementById(playerTurn).value
     //parâmetro para mostrar na tela o nome do vencedor
-    document.querySelector|('h2').innerHtml + playerName + ' venceu!'
+    document.querySelector('h2').innerHTML = winnerName + ' venceu!'
 }
 
 function disableAllregion (){
