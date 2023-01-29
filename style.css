@@ -18,11 +18,15 @@ body {
     border-right:50%;
 }
 
-#input{
-    border-left:50%;
-    border-right:50%;
-    
+#input1{
+    margin-left:25%;
 }
+
+#input2{
+    margin-left: 25%;
+}
+
+
 .line{
     height: 200px;
     border-bottom: solid 1px;
