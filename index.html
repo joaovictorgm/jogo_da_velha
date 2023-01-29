@@ -12,13 +12,16 @@
        
          <h1>Jogo da velha</h1>
 <hr>
-    
+             <div id="input">
              <label for="player1">X</label>
              <!--O placeholder especifica uma pequena dica que descreve o valor esperando de um campo de entrada -->
              <input type="text" id="player1" placeholder="Nome do Jogador 1">
              <label for="player2">O</label>
              <input type="text" id="player2" placeholder="Nome do Jogador 2">
              <button id="reload">Começar!</button>
+             
+              </div>
+            <div id="field">
              <!--span é um elemento de bloco de nível inline-->
             <h2>Vez de : <span id="playerTurn"></span></h2>
             <section id="game">
@@ -36,6 +39,7 @@
             <span class="cursor-pointer" data-region="2.0"></span>
             <span class="cursor-pointer" data-region="2.1"></span>
             <span class="cursor-pointer" data-region="2.2"></span>
+            </div>
             </div>
             </section>
        

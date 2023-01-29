@@ -12,6 +12,17 @@ body {
    
 
 }
+
+#field{
+    border-left:50%;
+    border-right:50%;
+}
+
+#input{
+    border-left:50%;
+    border-right:50%;
+    
+}
 .line{
     height: 200px;
     border-bottom: solid 1px;
@@ -27,6 +38,7 @@ body {
    display: grid;
    place-content: center;
    font-size: 10rem;
+  
     
 }
 
